@@ -1,5 +1,4 @@
-﻿
-using ClassLibrary;
+﻿using ClassLibrary;
 
 namespace PNIPU_C__LAB_10
 {

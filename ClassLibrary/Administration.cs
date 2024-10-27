@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ClassLibrary
+﻿namespace ClassLibrary
 {
     public class Administration : Person
     {
         public string Department { get; set; }
 
-        public Administration() { }
+        public Administration()
+        { }
 
         public Administration(string name, int age, string department) : base(name, age)
         {

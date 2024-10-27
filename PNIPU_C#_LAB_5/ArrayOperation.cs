@@ -1,6 +1,4 @@
-﻿using System;
-using System.Reflection;
-using static System.Console;
+﻿using static System.Console;
 
 namespace PNIPU_C__LAB_5
 {
@@ -46,7 +44,6 @@ namespace PNIPU_C__LAB_5
             return result.ToArray();
         }
 
-
         public int[,] CreateTwoDimentionalArray()
         {
             Write("Введите количество строк: ");
@@ -65,7 +62,6 @@ namespace PNIPU_C__LAB_5
                     array[i, j] = string.IsNullOrEmpty(input) ? rand.Next(1, 100) : int.Parse(input);
                 }
             }
-                
 
             return array;
         }
@@ -136,6 +132,5 @@ namespace PNIPU_C__LAB_5
 
             return result;
         }
-
     }
 }

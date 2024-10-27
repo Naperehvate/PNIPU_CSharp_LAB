@@ -27,7 +27,8 @@
             }
         }
 
-        public Person() { }
+        public Person()
+        { }
 
         public Person(string name, int age)
         {

@@ -23,7 +23,6 @@ namespace PNIPU_C__LAB_2
 
             WriteLine("Сумма элементов с четными номерами: " + sum);
         }
-        
 
         public void CountMultiplesOfFirstElement()
         {
@@ -54,7 +53,7 @@ namespace PNIPU_C__LAB_2
 
             while (i <= n)
             {
-                if (i % 3 == 0) 
+                if (i % 3 == 0)
                 {
                     sum -= i;
                 }

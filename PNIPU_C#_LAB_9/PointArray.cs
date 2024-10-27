@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Console;
+﻿using static System.Console;
 
 namespace PNIPU_C__LAB_9
 {
@@ -16,7 +11,6 @@ namespace PNIPU_C__LAB_9
             _arr = new Point[10];
         }
 
-
         public PointArray(int size, Random rand)
         {
             _arr = new Point[size];
@@ -26,7 +20,6 @@ namespace PNIPU_C__LAB_9
             }
         }
 
-       
         public PointArray(int size)
         {
             _arr = new Point[size];
@@ -41,7 +34,6 @@ namespace PNIPU_C__LAB_9
             }
         }
 
-        
         public void DisplayArray()
         {
             for (int i = 0; i < _arr.Length; i++)
@@ -50,7 +42,6 @@ namespace PNIPU_C__LAB_9
             }
         }
 
-     
         public Point this[int index]
         {
             get
@@ -67,7 +58,6 @@ namespace PNIPU_C__LAB_9
             }
         }
 
-        
         public Point FindMostDistantPoint()
         {
             if (_arr.Length == 0)
@@ -90,4 +80,3 @@ namespace PNIPU_C__LAB_9
         }
     }
 }
-

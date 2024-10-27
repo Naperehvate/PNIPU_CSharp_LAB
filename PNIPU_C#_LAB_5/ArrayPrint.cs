@@ -1,5 +1,4 @@
-﻿
-using static System.Console;
+﻿using static System.Console;
 
 namespace PNIPU_C__LAB_5
 
@@ -19,7 +18,6 @@ namespace PNIPU_C__LAB_5
             foreach (var item in array)
                 Write(item + " ");
             WriteLine();
-
         }
 
         public void Print(int[,] array)
@@ -56,7 +54,6 @@ namespace PNIPU_C__LAB_5
                     Write(item + " ");
                 WriteLine();
             }
-            
         }
     }
 }

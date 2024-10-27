@@ -6,8 +6,8 @@ namespace PNIPU_C__LAB_5
     {
         private string select = "";
 
-        ArrayOperation arrayOperation = new();
-        ArrayPrint arrayPrint = new();
+        private ArrayOperation arrayOperation = new();
+        private ArrayPrint arrayPrint = new();
 
         public void ShowMenu()
         {

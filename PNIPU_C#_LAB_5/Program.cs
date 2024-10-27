@@ -1,7 +1,4 @@
-﻿
-using PNIPU_C__LAB_5;
-
-
+﻿using PNIPU_C__LAB_5;
 
 //TestArrays test = new();
 //ArrayPrint arrayPrint = new();
@@ -9,8 +6,6 @@ using PNIPU_C__LAB_5;
 //arrayPrint.Print(test.OneDimArray);
 //arrayPrint.Print(test.TwoDimArray);
 //arrayPrint.Print(test.ToothedArray);
-
-
 
 Menu menu = new();
 menu.ShowMenu();

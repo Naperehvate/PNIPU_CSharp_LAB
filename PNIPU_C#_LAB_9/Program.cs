@@ -1,5 +1,4 @@
-﻿
-using PNIPU_C__LAB_9;
+﻿using PNIPU_C__LAB_9;
 using static System.Console;
 
 WriteLine("Создание первой точки:");
@@ -24,8 +23,8 @@ point1--;
 UserInterface.DisplayPointInfo(point1);
 
 // Преобразование типов
-int intX = (int)point1; // Явное преобразование 
-double doubleY = point1; // Неявное преобразование 
+int intX = (int)point1; // Явное преобразование
+double doubleY = point1; // Неявное преобразование
 WriteLine($"Целая часть X первой точки: {intX}");
 WriteLine($"Координата Y первой точки: {doubleY}");
 
@@ -35,9 +34,6 @@ WriteLine("Увеличение X первой точки на 5:");
 UserInterface.DisplayPointInfo(point1);
 
 WriteLine($"Количество созданных объектов Point: {Point.GetObjectCount()}");
-
-
-
 
 WriteLine("Выберите метод создания массива точек:");
 WriteLine("1 - Случайные значения");

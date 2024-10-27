@@ -2,51 +2,59 @@
 using PNIPU_C__LAB_10;
 
 #region Примеры полиморфизма
-Person[] employees = new Person[4];
 
-employees[0] = new Person();
-employees[0].RandomInit();
 
-employees[1] = new Worker();
-employees[1].RandomInit();
+//Person[] employees = new Person[4];
 
-employees[2] = new Engineer();
-employees[2].RandomInit();
+//employees[0] = new Person();
+//employees[0].RandomInit();
 
-employees[3] = new Administration();
-employees[3].RandomInit();
+//employees[1] = new Worker();
+//employees[1].RandomInit();
 
-// Отображаем информацию о сотрудниках
-Console.WriteLine("=== Набор сотрудников ===");
-foreach (var employee in employees)
-{
-    Console.WriteLine(new string('-', 30));
-    employee.Show();
-}
-Console.WriteLine(new string('-', 30) + "\n");
+//employees[2] = new Engineer();
+//employees[2].RandomInit();
 
-// Демонстрация полиморфизма
-Console.WriteLine("=== Демонстрация полиморфизма ===");
-foreach (var employee in employees)
-{
-    Console.WriteLine(new string('=', 30));
-    if (employee is Worker worker)
-    {
-        Console.WriteLine(">> Поведение, характерное для работника:");
-        worker.Show();
-    }
-    else
-    {
-        Console.WriteLine(">> Поведение, характерное для человека:");
-        employee.Show();
-    }
-}
-Console.WriteLine(new string('=', 30));
+//employees[3] = new Administration();
+//employees[3].RandomInit();
+
+//// Отображаем информацию о сотрудниках
+//Console.WriteLine("=== Набор сотрудников ===");
+//foreach (var employee in employees)
+//{
+//    Console.WriteLine(new string('-', 30));
+//    employee.Show();
+//}
+//Console.WriteLine(new string('-', 30) + "\n");
+
+//// Демонстрация полиморфизма
+//Console.WriteLine("=== Демонстрация полиморфизма ===");
+//foreach (var employee in employees)
+//{
+//    Console.WriteLine(new string('=', 30));
+//    if (employee is Worker worker)
+//    {
+//        Console.WriteLine(">> Поведение, характерное для работника:");
+//        worker.Show();
+//    }
+//    else
+//    {
+//        Console.WriteLine(">> Поведение, характерное для человека:");
+//        employee.Show();
+//    }
+//}
+//Console.WriteLine(new string('=', 30));
+
+
 #endregion
 
 #region Выполнение запросов
-Console.WriteLine("=== Выполнение запросов ===");
-QueryExecutor.ExecuteQueries(employees);
+
+
+//Console.WriteLine("=== Выполнение запросов ===");
+//QueryExecutor.ExecuteQueries(employees);
+
+
 #endregion
 
 #region Примеры интерфейсов

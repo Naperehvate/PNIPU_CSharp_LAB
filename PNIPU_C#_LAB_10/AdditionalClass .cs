@@ -22,5 +22,4 @@ namespace PNIPU_C__LAB_10
             return $"Описание: {Description}";
         }
     }
-
 }
