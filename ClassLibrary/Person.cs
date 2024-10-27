@@ -1,6 +1,6 @@
 ﻿namespace ClassLibrary
 {
-    public class Person
+    public class Person : IInit, IComparable<Person>, ICloneable
     {
         private string _name;
         private int _age;
@@ -50,7 +50,7 @@
         {
             Console.Write("Введите Имя: ");
             Name = Console.ReadLine();
-            Console.Write("Введите возраст: ");
+            Console.Write("Введите возра: ");
             Age = int.Parse(Console.ReadLine());
         }
 
@@ -68,6 +68,23 @@
                 return Name == person.Name && Age == person.Age;
             }
             return false;
+        }
+
+        public int CompareTo(Person? other)
+        {
+            return Age.CompareTo(other.Age);
+        }
+
+        // Реализация метода глубокого копирования
+        public object Clone()
+        {
+            return new Person(this);
+        }
+
+        // Реализация метода поверхностного копирования
+        public Person ShallowCopy()
+        {
+            return (Person)this.MemberwiseClone();
         }
     }
 }
