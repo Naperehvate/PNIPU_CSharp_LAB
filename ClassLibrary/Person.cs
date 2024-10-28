@@ -87,5 +87,10 @@
         {
             return (Person)this.MemberwiseClone();
         }
+
+        public override string ToString()
+        {
+            return $"Person: Name = {Name}, Age = {Age}";
+        }
     }
 }

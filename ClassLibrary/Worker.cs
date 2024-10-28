@@ -35,5 +35,10 @@
             string[] positions = { "Инженер", "Менеджер", "Техник" };
             Position = positions[new Random().Next(positions.Length)];
         }
+
+        public override string ToString()
+        {
+            return $"Worker: Name = {Name}, Age = {Age}, Position = {Position}";
+        }
     }
 }

@@ -31,5 +31,10 @@
             string[] specialties = { "IT", "Механик", "Электрик" };
             Specialty = specialties[new Random().Next(specialties.Length)];
         }
+
+        public override string ToString()
+        {
+            return $"Engineer: Name = {Name}, Age = {Age}, Position = {Position}, Specialty = {Specialty}";
+        }
     }
 }

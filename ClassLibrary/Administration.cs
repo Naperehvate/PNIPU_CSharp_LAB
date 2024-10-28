@@ -30,5 +30,10 @@
             string[] departments = { "HR", "Финансы", "Администрация" };
             Department = departments[new Random().Next(departments.Length)];
         }
+
+        public override string ToString()
+        {
+            return $"Administration: Name = {Name}, Age = {Age}, Department = {Department}";
+        }
     }
 }
