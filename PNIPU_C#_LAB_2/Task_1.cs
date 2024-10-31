@@ -4,7 +4,7 @@ namespace PNIPU_C__LAB_2
 {
     internal class Task_1
     {
-        public void SumEvenIndexElements()
+        public static void SumEvenIndexElements()
         {
             Write("Введите количество элементов: ");
             int n = int.Parse(ReadLine());
@@ -24,7 +24,7 @@ namespace PNIPU_C__LAB_2
             WriteLine("Сумма элементов с четными номерами: " + sum);
         }
 
-        public void CountMultiplesOfFirstElement()
+        public static void CountMultiplesOfFirstElement()
         {
             WriteLine("Введите последовательность чисел (закончить ввод числом 0):");
 
@@ -43,7 +43,7 @@ namespace PNIPU_C__LAB_2
             WriteLine("Количество элементов, кратных первому: " + count);
         }
 
-        public void CalculateAlternatingSum()
+        public static void CalculateAlternatingSum()
         {
             Write("Введите количество слагаемых n: ");
             int n = int.Parse(ReadLine());

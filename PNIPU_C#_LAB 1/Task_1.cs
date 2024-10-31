@@ -3,7 +3,7 @@
     internal class Task_1
     {
         // 1. m - --n
-        public void Example1()
+        public static void Example1()
         {
             int m = 5;
             int n = 3;
@@ -12,7 +12,7 @@
         }
 
         // 2. m++ < n
-        public void Example2()
+        public static void Example2()
         {
             int m = 5;
             int n = 7;
@@ -21,7 +21,7 @@
         }
 
         // 3. n++ > m
-        public void Example3()
+        public static void Example3()
         {
             int m = 5;
             int n = 6;
@@ -30,7 +30,7 @@
         }
 
         // 4. x^4 - cos(arcsin(x))
-        public void Example4()
+        public static void Example4()
         {
             double x = 0.50;
             if (x < -1 || x > 1)
