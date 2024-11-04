@@ -1,11 +1,12 @@
 ﻿namespace PNIPU_C__LAB_9
 {
-    internal class Point
+    public class Point : IDisposable
     {
         private static int _objectCount = 0;
         private int _pointNumber = 0;
         private double _x;
         private double _y;
+        private bool _disposed = false;
 
         public double X
         {
@@ -79,9 +80,19 @@
             return _objectCount;
         }
 
+        public void Dispose()
+        {
+            if (!_disposed)
+            {
+                _objectCount--;
+                _disposed = true;
+                GC.SuppressFinalize(this);
+            }
+        }
+
         ~Point()
         {
-            _objectCount--;
+            Dispose();
         }
     }
 }
