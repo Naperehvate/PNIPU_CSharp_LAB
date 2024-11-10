@@ -15,9 +15,9 @@ namespace Test_PNIPU_C__LAB_10
             var engineer = new Engineer();
             engineer.RandomInit();
 
-            Assert.IsNotNull(engineer.Name, "Name should be initialized");
-            Assert.That(engineer.Age, Is.InRange(18, 65), "Age should be within working age range");
-            Assert.IsNotNull(engineer.Specialty, "Specialization should be initialized");
+            Assert.IsNotNull(engineer.Name, "Имя должно быть инициализировано");
+            Assert.That(engineer.Age, Is.InRange(18, 65), "Возраст должен быть в пределах трудоспособного возраста");
+            Assert.IsNotNull(engineer.Specialty, "Специализация должна быть инициализирована");
         }
 
         [Test]
@@ -26,9 +26,9 @@ namespace Test_PNIPU_C__LAB_10
             var engineer = new Engineer();
             engineer.RandomInit();
 
-            Assert.IsNotNull(engineer.Name, "Name should be set");
-            Assert.That(engineer.Age, Is.InRange(18, 65), "Age should be within working age range");
-            Assert.IsNotNull(engineer.Specialty, "Specialization should be set");
+            Assert.IsNotNull(engineer.Name, "Имя должно быть задано");
+            Assert.That(engineer.Age, Is.InRange(18, 65), "Возраст должен быть в пределах трудоспособного возраста");
+            Assert.IsNotNull(engineer.Specialty, "Необходимо указать специализацию");
         }
     }
 }

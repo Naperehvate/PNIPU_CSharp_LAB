@@ -14,9 +14,9 @@ namespace Test_PNIPU_C__LAB_10
             var admin = new Administration();
             admin.RandomInit();
 
-            Assert.IsNotNull(admin.Name, "Name should be initialized");
-            Assert.That(admin.Age, Is.InRange(18, 65), "Age should be within working age range");
-            Assert.IsNotNull(admin.Department, "Department should be initialized");
+            Assert.IsNotNull(admin.Name, "Имя должно быть инициализировано");
+            Assert.That(admin.Age, Is.InRange(18, 65), "Возраст должен быть в пределах трудоспособного возраста");
+            Assert.IsNotNull(admin.Department, "Отдел должен быть инициализирован");
         }
 
         [Test]
@@ -25,9 +25,9 @@ namespace Test_PNIPU_C__LAB_10
             var admin = new Administration();
             admin.RandomInit();
 
-            Assert.IsNotNull(admin.Name, "Name should be set");
-            Assert.That(admin.Age, Is.InRange(18, 65), "Age should be within working age range");
-            Assert.IsNotNull(admin.Department, "Department should be set");
+            Assert.IsNotNull(admin.Name, "Имя должно быть задано");
+            Assert.That(admin.Age, Is.InRange(18, 65), "Возраст должен быть в пределах трудоспособного возраста");
+            Assert.IsNotNull(admin.Department, "Отдел должен быть установлен");
         }
     }
 }

@@ -14,9 +14,9 @@ namespace Test_PNIPU_C__LAB_10
             var worker = new Worker();
             worker.RandomInit();
 
-            Assert.IsNotNull(worker.Name, "Name should be initialized");
-            Assert.That(worker.Age, Is.InRange(18, 65), "Age should be within working age range");
-            Assert.IsNotNull(worker.Position, "Position should be initialized");
+            Assert.IsNotNull(worker.Name, "»м€ должно быть инициализировано");
+            Assert.That(worker.Age, Is.InRange(18, 65), "¬озраст должен быть в пределах трудоспособного возраста");
+            Assert.IsNotNull(worker.Position, "ѕозици€ должна быть инициализирована");
         }
 
         [Test]
@@ -25,9 +25,9 @@ namespace Test_PNIPU_C__LAB_10
             var worker = new Worker();
             worker.RandomInit();
 
-            Assert.IsNotNull(worker.Name, "Name should be set");
-            Assert.That(worker.Age, Is.InRange(18, 65), "Age should be within working age range");
-            Assert.IsNotNull(worker.Position, "Position should be set");
+            Assert.IsNotNull(worker.Name, "»м€ должно быть задано");
+            Assert.That(worker.Age, Is.InRange(18, 65), "¬озраст должен быть в пределах трудоспособного возраста");
+            Assert.IsNotNull(worker.Position, "ѕоложение должно быть задано");
         }
     }
 }
