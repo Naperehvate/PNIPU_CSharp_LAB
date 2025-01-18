@@ -89,6 +89,7 @@ Console.WriteLine("=== Все объекты ===");
 foreach (var obj in personObjects)
 {
     Console.WriteLine(obj.ToString());
+    
 }
 
 // Сортировка объектов по возрасту
