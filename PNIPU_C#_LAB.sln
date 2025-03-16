@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_PNIPU_C#_LAB_09", "Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_PNIPU_C#_LAB_10", "Test_PNIPU_C#_LAB_10\Test_PNIPU_C#_LAB_10.csproj", "{239BF49A-4846-4F9C-B049-7AF6A650BC2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PNIPU_C#_LAB_11", "PNIPU_C#_LAB_11\PNIPU_C#_LAB_11.csproj", "{78E54534-B60A-464F-BD0C-E43E65A9E679}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{239BF49A-4846-4F9C-B049-7AF6A650BC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{239BF49A-4846-4F9C-B049-7AF6A650BC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{239BF49A-4846-4F9C-B049-7AF6A650BC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78E54534-B60A-464F-BD0C-E43E65A9E679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E54534-B60A-464F-BD0C-E43E65A9E679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E54534-B60A-464F-BD0C-E43E65A9E679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E54534-B60A-464F-BD0C-E43E65A9E679}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

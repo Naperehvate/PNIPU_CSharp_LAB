@@ -4,6 +4,8 @@
     {
         public string Department { get; set; }
 
+        public Person BasePerson => new Person(Name, Age);
+
         public Administration()
         { }
 

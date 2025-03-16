@@ -4,6 +4,8 @@
     {
         public string Position { get; set; }
 
+        public Worker BaseWorker => new Worker(Name, Age, Position);
+
         public Worker()
         { }
 
