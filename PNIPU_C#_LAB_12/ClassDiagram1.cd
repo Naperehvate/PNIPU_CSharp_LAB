@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PNIPU_C__LAB_12.TreeNode">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACACAAAAAAAA=</HashCode>
+      <FileName>src\BinaryTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PNIPU_C__LAB_12.BinaryTree">
+    <Position X="5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAABCAAAAgAAACAAAAAgAAAAAgEAAAAAA=</HashCode>
+      <FileName>src\BinaryTree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PNIPU_C__LAB_12.Node">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\DoublyLinkedList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PNIPU_C__LAB_12.DoublyLinkedList">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAgAAAAAAAAAAAAAAAAAAAQAAABAAAAABAAgA=</HashCode>
+      <FileName>src\DoublyLinkedList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PNIPU_C__LAB_12.HashTable">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="PNIPU_C__LAB_12.HashTable.HashNode">
+        <TypeIdentifier>
+          <NewMemberFileName>src\HashTable.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABIAAAAAAAIAAABAAIIABAAAAAAIAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>src\HashTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PNIPU_C__LAB_12.MyCollection&lt;T&gt;">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAQAAAABAQAAJAAAAAEAAAAABBUIAA=</HashCode>
+      <FileName>src\MyCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
