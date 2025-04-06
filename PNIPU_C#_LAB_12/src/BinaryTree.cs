@@ -1,6 +1,4 @@
 ﻿using ClassLibrary;
-using System;
-using System.Collections.Generic;
 
 namespace PNIPU_C__LAB_12
 {
@@ -27,7 +25,7 @@ namespace PNIPU_C__LAB_12
             root = null;
         }
 
-        // Метод для создания идеально сбалансированного дерева
+        // Метод для создания балансированного дерева
         public TreeNode CreateBalancedTree(Person[] data, int start, int end)
         {
             if (start > end)
